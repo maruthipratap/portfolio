@@ -81,7 +81,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 section h2 {
@@ -90,6 +90,11 @@ section h2 {
     color: #22d3ee;
     border: none;
 }
+section h2 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
 /* ABOUT */
 #about p {
     max-width: 750px;
