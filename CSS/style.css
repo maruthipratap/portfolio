@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 * {
     margin: 0;
     padding: 0;
@@ -134,6 +137,11 @@ section h2 {
 /* CONTACT */
 #contact p {
     font-size: 1.1rem;
+}
+
+/* FIX NAVBAR HIDING SECTIONS */
+section {
+    scroll-margin-top: 90px;
 }
 
 /* FOOTER */
