@@ -94,6 +94,17 @@ section h2 {
     margin-top: 10px;
     margin-bottom: 30px;
 }
+/* SECTION SCROLL ANIMATION */
+.hidden {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: all 0.8s ease;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
 
 /* ABOUT */
 #about p {
