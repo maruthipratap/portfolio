@@ -37,6 +37,9 @@ hiddenElements.forEach(el => observer.observe(el));
 
 /* video view */
 function openDemo() {
+
+    const videoURL = window.location.origin + "/portfolio/images/lpg_demo.mp4";
+
     const videoWindow = window.open("", "_blank");
 
     videoWindow.document.write(`
@@ -71,13 +74,14 @@ function openDemo() {
         <body>
             <h2>Smart LPG Gas Detection System — Demo</h2>
             <video controls autoplay>
-                <source src="images/lpg_demo.mp4" type="video/mp4">
+                <source src="${videoURL}" type="video/mp4">
                 Your browser does not support video.
             </video>
         </body>
         </html>
     `);
 }
+
 /* HOME */
 /* TYPEWRITER EFFECT */
 
