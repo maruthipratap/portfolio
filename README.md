@@ -1,68 +1,94 @@
-# 🌐 Personal Portfolio Website
+# 🌐 Maruthi Pratap – Developer Portfolio
 
-This is my personal portfolio website built using **HTML, CSS, and JavaScript**.  
-It showcases my skills, projects, and contact information as an aspiring Full Stack Developer.
+Welcome to my personal portfolio website repository.
 
-🔗 Live Website:  
+This website showcases my skills, projects, and technical interests as a Computer Science & Cybersecurity student and aspiring Full-Stack Developer.
+
+🔗 **Live Website:**  
 https://maruthipratap.github.io/portfolio/
 
 ---
 
 ## 👨‍💻 About Me
-I am a Computer Science & Cybersecurity student passionate about building real-world applications and solving practical problems using technology.
+I am a Computer Science and Cybersecurity student passionate about building practical and real-world solutions.  
+I enjoy developing full-stack web applications and IoT-based systems that improve safety, automation, and usability.
 
-I am currently focusing on:
-- Web Development
-- Problem Solving
-- Java Programming
-- Full Stack Development (MERN – learning phase)
+My primary interests include:
+- Full-Stack Web Development
+- Cybersecurity fundamentals
+- Internet of Things (IoT) systems
 
 ---
 
 ## 🛠️ Technologies Used
+
+**Frontend**
 - HTML5
 - CSS3
 - JavaScript
+
+**Tools**
 - Git & GitHub
 - VS Code
 
----
-
-## 📂 Features
-- Responsive portfolio layout
-- Navigation bar for quick access
-- Skills section
-- Project showcase
-- Contact information
-- Deployed using GitHub Pages
+**Currently Learning**
+- MongoDB
+- Express.js
+- React.js
+- Node.js
+- REST APIs
 
 ---
 
-## 🚀 Project Included
+## 🚀 Featured Project
 
 ### Smart LPG Gas Detection System
-An IoT-based LPG leakage detection system that alerts users via SMS and voice call.
+An IoT-based gas leakage detection system designed to improve household safety.
 
-**Technologies Used:**
-- ESP8266 / ESP32
+**Features**
+- Detects LPG gas concentration continuously
+- Sends SMS alerts
+- Automated voice call notifications
+- GSM module communication
+- Real-time monitoring
+
+**Technologies**
+- ESP32
 - MQ-6 Gas Sensor
-- GSM Module
-- Twilio Alerts
-- Blynk Cloud Monitoring
+- GSM Module (SIM800L)
+- Blynk Cloud
+
+🔗 Project Repository:  
+https://github.com/maruthipratap/Smart-LPG-Gas-Detection-System
 
 ---
 
-## 📬 Contact
-Email: maruthiprathap66@gmail.com
+## 📂 Portfolio Sections
+- About Me
+- Skills
+- Projects
+- Resume
+- Contact Information
 
 ---
 
-## 📌 Future Improvements
-- Dark mode
-- More projects
-- Backend integration
-- Resume download option
+## 📸 Demo
+The website includes:
+- Animated hero section
+- Typing role animation
+- Project showcase card
+- Resume view & download
+- Social contact links
 
 ---
 
-⭐ If you like this project, feel free to star the repository!
+## 📬 Contact Me
+
+📧 Email: maruthiprathap66@gmail.com  
+💼 LinkedIn: https://www.linkedin.com/in/maruthipratap  
+🐙 GitHub: https://github.com/maruthipratap
+
+---
+
+## 📄 License
+This project is open for learning and reference purposes.
