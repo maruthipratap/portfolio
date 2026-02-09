@@ -78,3 +78,47 @@ function openDemo() {
         </html>
     `);
 }
+/* HOME */
+/* TYPEWRITER EFFECT */
+
+const roles = [
+    "Full Stack Developer",
+    "Cybersecurity Student",
+    "IoT Developer"
+];
+
+let roleIndex = 0;
+let letterIndex = 0;
+let deleting = false;
+
+function typeWriter() {
+    const typing = document.getElementById("typing");
+    const currentRole = roles[roleIndex];
+
+    if (!deleting) {
+        // typing letters
+        typing.textContent = currentRole.substring(0, letterIndex++);
+    } else {
+        // deleting letters
+        typing.textContent = currentRole.substring(0, letterIndex--);
+    }
+
+    let speed = 90;
+
+    // word fully typed
+    if (!deleting && letterIndex === currentRole.length + 1) {
+        speed = 1500; // pause after typing
+        deleting = true;
+    }
+
+    // word fully deleted
+    else if (deleting && letterIndex === 0) {
+        deleting = false;
+        roleIndex = (roleIndex + 1) % roles.length;
+        speed = 400;
+    }
+
+    setTimeout(typeWriter, speed);
+}
+
+typeWriter();
