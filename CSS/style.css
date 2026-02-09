@@ -1,6 +1,6 @@
 html{
     scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
+    
 }
 * {
     margin: 0;
@@ -416,10 +416,7 @@ section h2 {
     transform: translateY(-5px) scale(1.15);
 }
 
-/* FIX NAVBAR HIDING SECTIONS */
-section {
-    scroll-margin-top: 90px;
-}
+
 
 /* FOOTER */
 footer {
