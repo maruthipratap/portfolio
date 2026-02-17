@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PKI Certificate Authority Project</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body style="padding:40px">
+
+<h1>Public Key Infrastructure (PKI) – Certificate Authority</h1>
+
+<h2>Project Overview</h2>
+<p>
+This project implements a working Public Key Infrastructure that simulates how
+HTTPS websites verify identity and establish trust using digital certificates.
+The system acts as a Certificate Authority that issues, validates, and revokes
+certificates using public-key cryptography.
+</p>
+
+<h2>Key Features</h2>
+<ul>
+<li>RSA-2048 key generation</li>
+<li>Digital certificate issuance</li>
+<li>Certificate verification</li>
+<li>Digital signature validation</li>
+<li>Certificate Revocation List (CRL)</li>
+<li>Web-based verification interface</li>
+</ul>
+
+<h2>Security Concepts Demonstrated</h2>
+<ul>
+<li>Authentication</li>
+<li>Integrity</li>
+<li>Non-repudiation</li>
+<li>Trust management</li>
+</ul>
+
+<h2>How It Works</h2>
+<p>
+1. Certificate Authority generates keys<br>
+2. User receives signed certificate<br>
+3. Verifier checks authenticity<br>
+4. If compromised, certificate is revoked<br>
+5. Verification fails after revocation
+</p>
+
+<h2>Project Screenshots</h2>
+
+<h3>Home Page</h3>
+<img src="images/pki/home.png" width="700"><br><br>
+
+<h3>Certificate Issued</h3>
+<img src="images/pki/issue.png" width="700"><br><br>
+
+<h3>Valid Certificate Verification</h3>
+<img src="images/pki/valid.png" width="700"><br><br>
+
+<h3>Revoked Certificate Verification</h3>
+<img src="images/pki/revoked.png" width="700"><br><br>
+
+<h3>Certificate Revocation</h3>
+<img src="images/pki/revoke.png" width="700"><br><br>
+
+<h3>Certificate Details</h3>
+<img src="images/pki/details.png" width="700"><br><br>
+<h2>Real World Connection</h2>
+<p>
+This demonstrates how browsers verify HTTPS websites. When a certificate becomes
+compromised, it is revoked and the browser blocks the connection.
+</p>
+
+<h2>Source Code</h2>
+<a href="https://github.com/maruthipratap/Public-Key-Infrastructure" target="_blank">
+View on GitHub
+</a>
+
+</body>
+</html>
