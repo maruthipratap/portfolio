@@ -131,11 +131,9 @@ https://github.com/maruthipratap/Smart-LPG-Gas-Detection-System
 
 ## 📬 Contact
 
-📧 Email: [maruthiprathap66@gmail.com](mailto:maruthiprathap66@gmail.com)
-
-💼 LinkedIn: https://www.linkedin.com/in/maruthipratap
-
-🐙 GitHub: https://github.com/maruthipratap
+* 📧 Email: [maruthiprathap66@gmail.com](mailto:maruthiprathap66@gmail.com)
+* 💼 LinkedIn: https://www.linkedin.com/in/maruthipratap
+* 🐙 GitHub: https://github.com/maruthipratap
 
 ---
 
