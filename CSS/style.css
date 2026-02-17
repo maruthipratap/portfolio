@@ -454,3 +454,45 @@ footer {
         max-width: 350px;
     }
 }
+/* PKI PAGE */
+.back-nav{
+    position:fixed;
+    top:20px;
+    left:20px;
+}
+
+.back-nav a{
+    text-decoration:none;
+    background:#22d3ee;
+    color:#020617;
+    padding:10px 18px;
+    border-radius:8px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.back-nav a:hover{
+    transform:translateY(-2px);
+    box-shadow:0 4px 15px rgba(34,211,238,0.4);
+}
+
+/* PKI content spacing */
+body{
+    padding:40px;
+}
+
+body h1{
+    color:#22d3ee;
+    margin-bottom:20px;
+}
+
+body h2{
+    margin-top:35px;
+    margin-bottom:10px;
+}
+
+body p, body li{
+    max-width:800px;
+    color:#cbd5f5;
+    line-height:1.7;
+}
